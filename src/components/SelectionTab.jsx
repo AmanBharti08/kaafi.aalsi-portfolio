@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { CiCircleInfo } from "react-icons/ci";
 import MusicCard from "./MusicCard";
+import LatestRelease from "./LatestRelease";
+import InfoPage from "./InfoPage";
 
 const SelectionTab = () => {
   const [openMusic, setOpenMusic] = useState(true);
@@ -48,16 +50,18 @@ const SelectionTab = () => {
           className={`${
             openBlogs ? "bg-[#E7DF74] text-black" : unselect
           } rounded-2xl p-2 w-[40%] flex justify-center items-center text-2xl font-bold cursor-pointer`}
-           onClick={handleOpenBlogs}
+          onClick={handleOpenBlogs}
         >
           BLOGS
         </div>
       </div>
-      {
-        openMusic && (
-          <MusicCard/>
-        )
-      }
+      {openMusic && (
+        <>
+          <MusicCard />
+          <LatestRelease />
+        </>
+      )}
+      {openInfo && <InfoPage />}
     </div>
   );
 };
