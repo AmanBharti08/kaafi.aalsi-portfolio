@@ -9,7 +9,7 @@ const GreetPlusSearch = () => {
   }
 
   return (
-    <nav className="p-10 flex flex-col gap-8 h-[200px]">
+    <nav className="p-10 flex flex-col gap-6 h-[180px] ">
       <div className="flex w-full justify-between items-center">
         <h1 className="text-[32px] font-light">HELLO</h1>
         <div className="w-[50px] h-[50px] bg-[#333333] flex justify-center items-center rounded-full">
