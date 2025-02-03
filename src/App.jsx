@@ -1,5 +1,6 @@
 import "./App.css";
 import GreetPlusSearch from "./components/GreetPlusSearch";
+import MusicCard from "./components/MusicCard";
 import SelectionTab from "./components/SelectionTab";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div>
       <GreetPlusSearch />
       <SelectionTab/>
+      {/* <MusicCard/> */}
     </div>
   );
 }

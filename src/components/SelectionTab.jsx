@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { CiCircleInfo } from "react-icons/ci";
+import MusicCard from "./MusicCard";
 
 const SelectionTab = () => {
   const [openMusic, setOpenMusic] = useState(true);
@@ -52,6 +53,11 @@ const SelectionTab = () => {
           BLOGS
         </div>
       </div>
+      {
+        openMusic && (
+          <MusicCard/>
+        )
+      }
     </div>
   );
 };

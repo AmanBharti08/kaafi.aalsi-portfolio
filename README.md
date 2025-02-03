@@ -10,3 +10,5 @@
 3. Increased the use of semantic tag.
 4. Created slectiontab ofr music, info and blogs.
 5. Gave conditional property for highlighting the selected tab only.
+6. Started Music Card component which will be used to render my catalogue in card form.
+7. Used relative and absolute positioning for styling the component.
