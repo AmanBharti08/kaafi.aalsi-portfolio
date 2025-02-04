@@ -2,7 +2,7 @@ import image from "../assets/ArtistImage.jpg";
 
 const InfoPage = () => {
   return (
-    <div className="my-5   flex flex-col items-center">
+    <div className="my-5 flex flex-col items-center">
       <div className="overflow-hidden h-[380px] rounded-3xl">
         <img src={image} alt="" className="opacity-[50%]" />
       </div>
