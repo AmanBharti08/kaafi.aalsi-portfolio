@@ -1,10 +1,13 @@
-#Techs Used:
+# Techs Used:
 1. ReactJs
 2. Tailwind CSS
+3. React Icons
+4. Mongoose
+5. dotenv
 
 
 
-#Steps
+# Steps
 1. First I started with the figma design, took inspiration from some prototypes on dribble {https://www.figma.com/design/DaLC4fqQTOstysCk2jJFJ4/Untitled?node-id=0-1&t=97XSRRnHnyFbgINo-1}.
 2. I started the components journey with Navbar(GreetPlusSearch) Component. Where I used flexbox properties like justify-content, items-center and gap to style different sections of the navbar.
 3. Increased the use of semantic tag.
