@@ -9,9 +9,9 @@ const GreetPlusSearch = () => {
   }
 
   return (
-    <nav className="p-10 flex flex-col gap-6 h-[180px] ">
+    <nav className="flex flex-col gap-6 h-[9em] ">
       <div className="flex w-full justify-between items-center">
-        <h1 className="text-[32px] font-light">HELLO</h1>
+        <h1 className="text-[2rem] font-light">HELLO</h1>
         <div className="w-[50px] h-[50px] bg-[#333333] flex justify-center items-center rounded-full">
           <CiSearch className="text-3xl" onClick={handleOpenSearch} />
         </div>
@@ -22,7 +22,7 @@ const GreetPlusSearch = () => {
           <input
             type="text"
             placeholder="SEARCH"
-            className="bg-[#333333] p-1.5 text-2xl w-[350px] rounded-2xl pl-12"
+            className="bg-[#333333] p-1.5 text-2xl w-full rounded-2xl pl-12"
           />
         </div>
       )}

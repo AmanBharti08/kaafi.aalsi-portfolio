@@ -28,7 +28,7 @@ const SelectionTab = () => {
   const unselect = "bg-black text-[#F1F1F1]";
 
   return (
-    <div className="px-6">
+    <div>
       <div className="bg-[#333333] flex justify-between p-2 rounded-3xl">
         <div
           className={`${
